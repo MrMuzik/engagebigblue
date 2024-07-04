@@ -1,5 +1,8 @@
 <script>
-import "../app.css";
+    import "../app.css";
+    export let segment;
 </script>
   
-<slot />
+<main>
+    <slot />
+</main>

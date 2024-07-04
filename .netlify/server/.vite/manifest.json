@@ -75,6 +75,15 @@
       "_ssr.js"
     ]
   },
+  "src/routes/success/+layout.svelte": {
+    "file": "entries/pages/success/_layout.svelte.js",
+    "name": "entries/pages/success/_layout.svelte",
+    "src": "src/routes/success/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
   "src/routes/success/+page.svelte": {
     "file": "entries/pages/success/_page.svelte.js",
     "name": "entries/pages/success/_page.svelte",
