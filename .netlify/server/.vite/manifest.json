@@ -71,6 +71,15 @@
       "_ssr.js"
     ]
   },
+  "src/routes/fun/+page.svelte": {
+    "file": "entries/pages/fun/_page.svelte.js",
+    "name": "entries/pages/fun/_page.svelte",
+    "src": "src/routes/fun/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
   "src/routes/success/+page.svelte": {
     "file": "entries/pages/success/_page.svelte.js",
     "name": "entries/pages/success/_page.svelte",
