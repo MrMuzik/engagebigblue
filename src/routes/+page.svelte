@@ -1,7 +1,7 @@
 <h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<form name="contact" method="POST" action="/success" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true">
     <p>
       <label>Your Name: <input type="text" name="name" /></label>
     </p>
