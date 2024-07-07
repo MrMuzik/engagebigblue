@@ -1,8 +1,8 @@
 <script>
     import "../app.scss";
-    import Header from '../Header.svelte';
-    import Footer from '../Footer.svelte';
-    import Nav from "../Nav.svelte";
+    import Header from '../structure/Header.svelte';
+    import Footer from '../structure/Footer.svelte';
+    import Nav from "../structure/Nav.svelte";
 </script>
 <Header />
 <Nav />

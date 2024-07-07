@@ -2,6 +2,10 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem',
+    },
     fontFamily: {
 			'sans': ['"montserrat"', '"open-sans"', 'Helvetica', 'Arial', 'system-ui', 'sans-serif'],
       'serif': ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'ui-serif', 'serif'],
@@ -32,6 +36,7 @@ export default {
         'big-cream': '#FFFBE9',
         'big-teal': '#65D9CD',
         'big-coral': '#FC948B',
+        'primary': 'rgb(31 41 55)',
       },
 		},
   },
