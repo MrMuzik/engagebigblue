@@ -1,5 +1,7 @@
 <script>
     import Testimonial from "../components/Testimonial.svelte";
+    import SeePlansLink from "../components/See-Plans-Link.svelte";
+    // Testimonials data
     const susan = {
         name: "Susan",
         title: "Game Changer",
@@ -26,10 +28,12 @@
 
 <section class="bg-big-teal" id="testimonials">
     <div class="container mx-auto py-20">
-        <div class="mx-auto grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-10 mt-10 md:mt-20">
+        <div class="text-4xl md:text-6xl font-headline mt-4 text-big-blue text-center">They said it best</div>
+        <div class="mx-auto grid grid-cols-1 lg:grid-cols-3 gap-x-5 gap-y-10 mt-10">
             {#each testimonials as testimonial}
                 <Testimonial {...testimonial} />
             {/each}
         </div>
+        <SeePlansLink />
     </div>
 </section>

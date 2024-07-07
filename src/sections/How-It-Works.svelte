@@ -1,4 +1,4 @@
-<section class="how-it-works" id="how-it-works">
+<section class="snap-y scroll-mt-16" id="how-it-works">
     <div class="container mx-auto py-20 grid grid-cols-1 md:grid-cols-2 gap-y-5">
         <div class="flex justify-start">
             <h1 class="text-5xl md:text-6xl font-headline text-center text-big-blue">How it works:</h1>    

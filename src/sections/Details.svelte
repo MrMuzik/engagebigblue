@@ -1,3 +1,6 @@
+<script>
+	import SeePlansLink from "../components/See-Plans-Link.svelte";
+</script>
 <section class="bg-big-coral" id="details">
     <div class="container mx-auto py-20">
         <div class="uppercase text-center font-sans text-base md:text-lg">Intuitive, straightforward design perfectly suited to your business</div>
@@ -16,5 +19,6 @@
                <p class="text-lg">Unlimited revisions until you're<br><em>100% satisfied</em>.</p>
             </div>
         </div>
+        <SeePlansLink background="bg-big-teal" />
     </div>
 </section>
