@@ -5,6 +5,6 @@
 </script>
 <footer class="bg-gray-200">
     <div class="container mx-auto p-4 text-center">
-        <small class="text-sm">&copy; {currentYear} Park Properties, LLC</small>
+        <small class="text-sm text-primary">&copy; {currentYear} Park Properties, LLC. <span class="uppercase">All Rights Reserved.</span></small>
     </div>
 </footer>

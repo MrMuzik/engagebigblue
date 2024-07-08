@@ -32,7 +32,7 @@
         icon: "fa-solid fa-user",
         content: "We get to know you and your brand, ensuring your needs are met with precision and care."
     };
-    const perks = [board, fast, monthly, quality, stressFree, personal];
+    const perks = [board, fast, personal, quality, stressFree, monthly];
 </script>
 <section class="snap-y scroll-mt-16" id="member-perks">
     <div class="container mx-auto pt-20">

@@ -16,7 +16,22 @@
         answer: "We stand by the caliber of our work and do not offer refunds. We ensure each project meets your expectations with unlimited revisions.",
         visible: false
     };
-    const questions = [who, plans, refund];
+    const membership = {
+        title: "How do I receive my deliverables if my request spans multiple months?",
+        answer: "You must maintain an active membership to receive deliverables. You can pause or cancel your subscription at any time.",
+        visible: false
+    };
+    const pm = {
+        title: "What project management tool does Big Blue use?",
+        answer: "Big Blue use Monday.com to manage projects efficiently. Don’t worry about needing a subscription; you’ll have access to a private board to manage your requests seamlessly.",
+        visible: false
+    };
+    const nogo = {
+        title: "What types of requests are not included in the unlimited plans?",
+        answer: "There are a few areas we don’t cover: 3D modeling, animated graphics, complex packaging, extensive print design like magazines and books, and specialized document design such as medical forms.",
+        visible: false
+    };
+    const questions = [who, plans, refund, membership, pm, nogo];
 </script>
 
 <section class="snap-y scroll-mt-16" id="faq">
