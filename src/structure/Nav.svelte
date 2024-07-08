@@ -14,10 +14,10 @@
                 <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#services">Services</a>
             </div>
             <div class="flex items-center justify-center">
-                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="/">Pricing</a>
+                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#plans">Plans</a>
             </div>
             <div class="flex items-center justify-center">
-                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="/">FAQ</a>
+                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#faq">FAQ</a>
             </div>
         </div>
     </div>

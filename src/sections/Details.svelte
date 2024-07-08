@@ -3,7 +3,7 @@
 </script>
 <section class="bg-big-coral" id="details">
     <div class="container mx-auto py-20">
-        <div class="uppercase text-center font-sans text-base md:text-lg">Intuitive, straightforward design perfectly suited to your business</div>
+        <div class="uppercase text-center font-sans text-base md:text-lg">Intuitive, straightforward services perfectly suited to your business</div>
         <div class="text-3xl md:text-6xl font-serif mt-4 text-big-blue text-center">No more wrestling with tech or grappling with faceless, generic solutions. </div>
         <div class="mx-auto grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-10 mt-10 md:mt-20">
             <div class="text-center flex flex-col gap-5">

@@ -6,6 +6,8 @@
     import Testimonials from "../sections/Testimonials.svelte";
     import MemberPerks from "../sections/Member-Perks.svelte";
     import Services from "../sections/Services.svelte";
+    import Plans from "../sections/Plans.svelte";
+    import Faq from "../sections/Faq.svelte";
 </script>
 <Nav />
 <Hero />
@@ -14,3 +16,5 @@
 <Testimonials />
 <MemberPerks />
 <Services />
+<Plans />
+<Faq />
