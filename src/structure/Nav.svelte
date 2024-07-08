@@ -8,10 +8,10 @@
                 <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#how-it-works">How It Works</a>
             </div>
             <div class="flex items-center justify-center">
-                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="/">Services</a>
+                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#member-perks">Member Perks</a>
             </div>
             <div class="flex items-center justify-center">
-                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#member-perks">Member Perks</a>
+                <a class="hover:text-big-blue p-5 whitespace-nowrap" href="#services">Services</a>
             </div>
             <div class="flex items-center justify-center">
                 <a class="hover:text-big-blue p-5 whitespace-nowrap" href="/">Pricing</a>

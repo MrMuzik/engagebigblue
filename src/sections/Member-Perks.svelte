@@ -1,5 +1,38 @@
 <script>
     import { assets } from '$app/paths';
+    import Perk from '../components/Perk.svelte';
+    // Perk data
+    const board = {
+        title: "Project Board",
+        icon: "fa-solid fa-clipboard-list",
+        content: "Easily manage your projects with a Monday board. Simple design request submission & management."
+    };
+    const fast = {
+        title: "Fast & Reliable",
+        icon: "fa-solid fa-bolt-lightning",
+        content: "Typically receive your request within a few days. Your requests are completed 1 at a time."
+    };
+    const monthly = {
+        title: "Monthly Subscription",
+        icon: "fa-solid fa-piggy-bank",
+        content: "Pay a flat monthly fee for unlimited requests. No hidden fees or surprise charges."
+    };
+    const quality = {
+        title: "Exceptional Quality",
+        icon: "fa-solid fa-heart",
+        content: "Superior quality honed over 20 years of experience, ready to elevate your brand."
+    };
+    const stressFree = {
+        title: "Adjustable & Stress-Free",
+        icon: "fa-solid fa-face-smile",
+        content: "We handle the tech so you can focus on your business, no more tech headaches! Pause or cancel anytime your services anytime."
+    };
+    const personal = {
+        title: "Personal Care",
+        icon: "fa-solid fa-user",
+        content: "We get to know you and your brand, ensuring your needs are met with precision and care."
+    };
+    const perks = [board, fast, monthly, quality, stressFree, personal];
 </script>
 <section class="snap-y scroll-mt-16" id="member-perks">
     <div class="container mx-auto pt-20">
@@ -19,5 +52,13 @@
             <h2 class="font-bold text-big-coral mb-1 mt-5">Streamline Your Requests</h2>
             <p>Submit and manage design requests with ease. Our system is designed for simplicity, ensuring you can quickly request updates or new projects without any hassle, keeping your business moving smoothly.</p>
         </div>
+    </div>
+    <div class="container mx-auto pb-20 pt-0 md:pt-20">
+        <h3 class="font-serif text-big-blue text-5xl md:text-6xl text-center">Everything you require, all in one place.</h3>
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-10">
+        {#each perks as perk}
+            <Perk {...perk} />
+        {/each}
     </div>
 </section>
