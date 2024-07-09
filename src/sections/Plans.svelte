@@ -1,3 +1,5 @@
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
 <section class="snap-y scroll-mt-16 bg-big-coral" id="plans">
     <div class="container mx-auto py-20">
         <h1 class="text-5xl md:text-6xl font-headline text-big-blue mb-10">Subscription Plans:</h1> 
@@ -21,7 +23,12 @@
                     </ul>
                 </div>
                 <div class="text-center mt-10">
-                    <a href="/" class="text-lg md:text-sm lg:text-2xl font-sans py-2.5 px-10 rounded-full hover:text-big-teal bg-big-blue">Subscribe</a>
+                    <a href="https://buy.stripe.com/6oE7uZ7fz0ZDcBWaEF" class="text-lg md:text-sm lg:text-2xl font-sans py-2.5 px-10 rounded-full hover:text-big-teal bg-big-blue">Subscribe</a>
+                    <stripe-buy-button
+                    buy-button-id="buy_btn_1PaRNFEYWzL1JFI6pCybgQMX"
+                    publishable-key="pk_live_51NbXSpEYWzL1JFI6srJdTgjINJqaTXw7BZFb30c3J4yyzCuf1MNM6flyhZnaVTnFtbK1rQfBCxi53IydXP1kev4R00H0TuWaFG"
+                    >
+                    </stripe-buy-button>
                 </div>
             </div>
             <div class="bg-big-cream p-10 rounded-xl mt-10 md:mt-0 md:rounded-b-none flex flex-col">
