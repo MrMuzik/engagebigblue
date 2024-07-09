@@ -5,7 +5,7 @@
 </script>
 <footer class="bg-gray-200">
     <div class="container mx-auto p-4 text-center">
-        <div class="flex md:items-center md:justify-center gap-5">
+        <div class="flex items-center justify-center gap-5">
             <div class="flex items-center justify-center">
                 <a href="/privacy-policy" class="text-sm text-primary hover:text-big-blue">Privacy Policy</a>
             </div>
