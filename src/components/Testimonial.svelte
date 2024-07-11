@@ -1,5 +1,5 @@
 <script>
-    export let name, title, business, icon, quote;
+    export let name, title, icon, quote;
 </script>
 
 <div class="testimonial text-center flex flex-col gap-5">
@@ -10,5 +10,5 @@
         </p>
         <p class="testimonial-quote text-lg">{quote}</p>
     </div>
-    <p class="testimonial-name text-sm">{name}<br><span class="testimonial-business">{business}</span></p>
+    <p class="testimonial-name text-sm">{name}</p>
 </div>

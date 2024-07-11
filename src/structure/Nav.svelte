@@ -2,7 +2,7 @@
 import { page } from '$app/stores';
 $: path = $page.url.pathname;
 </script>
-<nav class="bg-big-teal sticky top-0 shadow main-nav">
+<nav class="bg-big-teal sticky top-0 shadow main-nav z-50">
     <div class="container mx-auto overflow-x-auto">
         <div class={`flex gap-5 ${path === '/' ? 'md:items-center md:justify-center' : 'items-center justify-center'}`}>
             {#if path === '/'}

@@ -22,10 +22,13 @@
                 </div>
                 <div class="text-center mt-10">
                     <a href="https://buy.stripe.com/6oE7uZ7fz0ZDcBWaEF" target="_blank" class="text-lg md:text-sm lg:text-2xl font-sans py-2.5 px-10 rounded-full hover:text-big-teal bg-big-blue">Subscribe</a>
-                    <small class="text-primary text-xs block mt-4"><i class="fa-solid fa-up-right-from-square mr-2"></i>Opens Stripe to Purchase Subscription.</small>
+                    <a href="https://buy.stripe.com/6oE7uZ7fz0ZDcBWaEF" target="_blank">
+                        <small class="text-primary text-xs block mt-4">Opens Stripe to Purchase Subscription.</small>
+                    </a>
                 </div>
             </div>
-            <div class="bg-big-cream p-10 rounded-xl mt-10 md:mt-0 md:rounded-b-none flex flex-col">
+            <div class="relative overflow-hidden bg-big-cream p-10 rounded-xl mt-10 md:mt-0 md:rounded-b-none flex flex-col">
+                <div class="ribbon ribbon--right">Most Popular</div>
                 <h2 class="text-big-teal text-3xl font-bold">Big Blue</h2>
                 <div class="text-primary text-xs">Unlimited requests per month</div>
                 <p class="text-primary text-base mt-5">Your Partner in Business Growth.</p>
@@ -45,7 +48,9 @@
                 </div>
                 <div class="text-center mt-10">
                     <a href="https://buy.stripe.com/eVa2aF2ZjbEh45q8wy" target="_blank" class="text-lg md:text-sm lg:text-2xl font-sans py-2.5 px-10 rounded-full hover:text-big-teal bg-big-blue">Subscribe</a>
-                    <small class="text-primary text-xs block mt-4"><i class="fa-solid fa-up-right-from-square mr-2"></i>Opens Stripe to Purchase Subscription.</small>
+                    <a href="https://buy.stripe.com/eVa2aF2ZjbEh45q8wy" target="_blank">
+                        <small class="text-primary text-xs block mt-4">Opens Stripe to Purchase Subscription.</small>
+                    </a>
                 </div>
             </div>
             <div class="bg-big-cream p-10 rounded-xl mt-10 md:border md:border-solid md:border-b-0 md:border-big-coral md:rounded-l-none flex flex-col">
@@ -68,7 +73,9 @@
                 </div>
                 <div class="text-center mt-10">
                     <a href="https://buy.stripe.com/6oEdTn2ZjfUxfO83cf" target="_blank" class="text-lg md:text-sm lg:text-2xl font-sans py-2.5 px-10 rounded-full hover:text-big-teal bg-big-blue">Subscribe</a>
-                    <small class="text-primary text-xs block mt-4"><i class="fa-solid fa-up-right-from-square mr-2"></i>Opens Stripe to Purchase Subscription.</small>
+                    <a href="https://buy.stripe.com/6oEdTn2ZjfUxfO83cf" target="_blank">
+                        <small class="text-primary text-xs block mt-4">Opens Stripe to Purchase Subscription.</small>
+                    </a>
                 </div>
             </div>
         </div>

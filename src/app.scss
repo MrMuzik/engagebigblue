@@ -155,3 +155,16 @@ p + p {
         }
     }
 }
+
+.ribbon {
+    position: absolute;
+    background: #0378A6;
+    box-shadow: 0 0 0 999px #0378A6;
+    clip-path: inset(0 -100%);
+
+    &--right {
+        inset: 0 0 auto auto;
+        transform-origin: 0 0;
+        transform: translate(29.3%) rotate(45deg);
+    }
+}
