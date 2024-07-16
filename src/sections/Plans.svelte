@@ -4,8 +4,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3">
             <div class="bg-big-cream p-10 rounded-xl mt-0 md:mt-10 md:border md:border-solid md:border-b-0 md:border-big-coral md:rounded-r-none flex flex-col">
                 <h2 class="text-big-coral text-3xl font-bold">Little Blue</h2>
-                <div class="text-primary text-xs">One request per month</div>
-                <p class="text-primary text-base mt-5">For the entrepreneur who needs a little help.</p>
+                <p class="text-primary text-base mt-5">One request per month</p>
                 <div class="text-4xl md:text-3xl lg:text-5xl text-big-blue mt-5">$499<span class="text-primary text-lg">/Month</span></div>
                 <div class="mt-5 flex-1">
                     <ul class="list-none text-primary">
@@ -30,8 +29,7 @@
             <div class="relative overflow-hidden bg-big-cream p-10 rounded-xl mt-10 md:mt-0 md:rounded-b-none flex flex-col">
                 <div class="ribbon ribbon--right">Most Popular</div>
                 <h2 class="text-big-teal text-3xl font-bold">Big Blue</h2>
-                <div class="text-primary text-xs">Unlimited requests per month</div>
-                <p class="text-primary text-base mt-5">Your Partner in Business Growth.</p>
+                <p class="text-primary text-base mt-5">Unlimited design, marketing & admin requests per month. 1 request at a time</p>
                 <div class="text-4xl md:text-3xl lg:text-5xl text-big-blue mt-5">$1,599<span class="text-primary text-lg">/Month</span></div>
                 <div class="mt-5 flex-1">
                     <ul class="list-none text-primary">
@@ -55,8 +53,7 @@
             </div>
             <div class="bg-big-cream p-10 rounded-xl mt-10 md:border md:border-solid md:border-b-0 md:border-big-coral md:rounded-l-none flex flex-col">
                 <h2 class="text-big-coral text-3xl font-bold">Big Blue Unlimited</h2>
-                <div class="text-primary text-xs">Full service access</div>
-                <p class="text-primary text-base mt-5">Taking Your Business to the Next Level.</p>
+                <p class="text-primary text-base mt-5">Unlimited Full Service requests. 1 request at a time.</p>
                 <div class="text-4xl md:text-3xl lg:text-5xl text-big-blue mt-5">$2,499<span class="text-primary text-lg">/Month</span></div>
                 <div class="mt-5 flex-1">
                     <ul class="list-none text-primary">

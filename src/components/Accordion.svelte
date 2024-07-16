@@ -16,7 +16,7 @@
 
 <!-- Expand/collapse section button -->
 <button type="button" class="js-accordion-button flex w-full items-center justify-between px-10 py-3 font-sans text-big-cream bg-big-blue rounded-xl hover:text-big-coral mt-10 first-of-type:mt-0 {visible && 'rounded-b-none'}" on:click={accordion}>
-    <span class="font-lg font-bold">{title}</span>
+    <span class="font-lg font-bold text-left">{title}</span>
     <span class="ml-6 flex items-center">
         <!-- Expand icon, show/hide based on section open state. -->
         <svg class="h-5 w-5 {visible && 'hidden'}" viewBox="0 0 20 20" fill="currentColor">
