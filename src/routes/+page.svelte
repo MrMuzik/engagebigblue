@@ -8,6 +8,8 @@
     import Services from "../sections/Services.svelte";
     import Plans from "../sections/Plans.svelte";
     import Faq from "../sections/Faq.svelte";
+    import LocalServices from "../sections/Local-Services.svelte";
+    import WebServices from "../sections/Web-Services.svelte";
 </script>
 <Nav />
 <Hero />
@@ -17,4 +19,6 @@
 <MemberPerks />
 <Services />
 <Plans />
+<LocalServices />
+<WebServices />
 <Faq />

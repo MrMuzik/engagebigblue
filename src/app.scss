@@ -168,3 +168,17 @@ p + p {
         transform: translate(29.3%) rotate(45deg);
     }
 }
+
+.arch-container {
+    width: 210px; /* Desired width */
+    overflow: hidden; /* Hide overflow to ensure masking works */
+    position: relative; /* Allows positioning of the image within the container */
+    img {
+        width: 210px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+
+    }
+      
+}
