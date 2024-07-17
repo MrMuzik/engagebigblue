@@ -2,13 +2,13 @@
     import { assets } from '$app/paths';
 </script>
 <section id="local-services">
-    <div class="container mx-auto py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5">
+    <div class="container mx-auto py-20 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-y-5">
         <div class="hidden md:flex justify-start">
             <div class="arch-container">
                 <img class="rounded-full rounded-b-none" src={`${assets}/images/clothing-outfit.jpg`} alt="Clothing Outfit" />
             </div>
         </div>
-        <div class="font-sans text-big-blue text-lg lg:col-span-2">
+        <div class="font-sans text-big-blue text-lg md:col-span-2 lg:col-span-3">
             <h1 class="text-5xl md:text-6xl font-headline text-left text-big-blue">Local Services in South Shore:</h1>   
             <p class="mt-5">If you're located in the South Shore of Massachusetts, we offer specialized local services, including:</p>
                 <ul class="list-disc list-outside ml-8 mt-5">
