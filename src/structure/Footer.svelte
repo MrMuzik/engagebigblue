@@ -13,6 +13,6 @@
                 <a href="/terms-conditions" class="text-sm text-primary hover:text-big-cream">Terms and Conditions</a>
             </div>
         </div>
-        <small class="text-sm text-primary">&copy; {currentYear} Park Properties, LLC. <span class="uppercase">All Rights Reserved.</span></small>
+        <small class="text-sm text-primary">&copy; {currentYear} Big Blue Media. <span class="uppercase">All Rights Reserved.</span></small>
     </div>
 </footer>
